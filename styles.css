@@ -1,13 +1,15 @@
+
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:regular,700);
 body {
   text-align: center;
-  background-color: #011F3F;
+  background-color: #45a2ff;
 }
 
 #level-title {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
-  margin:  5%;
-  color: #FEF2BF;
+  font-family: "Amatic SC", sans-serif;
+  font-size: 5rem;
+  margin:  30px;
+  color: #ffffff;
 }
 
 .container {
@@ -22,7 +24,7 @@ body {
   display: inline-block;
   height: 200px;
   width: 200px;
-  border: 10px solid black;
+  border: 8px solid rgb(255, 255, 255);
   border-radius: 20%;
 }
 
@@ -32,19 +34,19 @@ body {
 }
 
 .red {
-  background-color: red;
+  background-color: rgb(255, 95, 95);
 }
 
 .green {
-  background-color: green;
+  background-color: rgb(89, 176, 89);
 }
 
 .blue {
-  background-color: blue;
+  background-color: rgb(48, 48, 155);
 }
 
 .yellow {
-  background-color: yellow;
+  background-color: rgb(237, 227, 122);
 }
 
 .pressed {
